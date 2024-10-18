@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{  
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header nav ul li{
+display: inline;
+margin-left: 40px;
+padding-right: 10px;
+
+
+
+}
+
+.hero{
+text-align: center;
+position: relative;
+
+}
+
+.image1{
+        position: relative;
+        text-align: center;
+}
+
+.hhp{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hhp h1{
+padding-top: 380px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 60px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hhp h4{
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hhp p{
+font-size: 30px;
+color: grey;
+padding-bottom: 20px;
+}
+
+.hhp a{
+color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.image2{
+    text-align: center;
+position: relative;
+padding-top: 25px;
+height: 650px;
+}
+
+.iphone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 650px;
+
+}
+
+.iphone h1{
+ padding-top: 380px;
+padding-bottom: 30px;
+text-align: center;
+font-size: 80px;
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.iphone h3{
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: whitesmoke;
+
+}
+
+
+.iphone a{
+color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.image3{
+    text-align: center;
+position: relative;
+padding-top: 35px;
+}
+
+.iphone2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 650px;
+
+}
+
+.iphone2 h1{
+ padding-top: 400px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 90px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.iphone2 h3{
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: black;
+
+}
+
+
+.iphone2 a{
+color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.main{
+display: flex;
+margin: 5px;
+}
+
+
+.box1{
+    width: 49%;
+    background-color: black;
+    color: whitesmoke;
+    overflow: hidden;
+    margin-top: 15px;
+    margin: 7px;
+}
+
+.box1 h3{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: whitesmoke;
+text-align: center;
+}
+
+.box1 img{
+padding-left: 300px;
+padding-top: 20px;
+}
+
+.link{
+    text-align: center;
+    color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.img2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 270px;
+}
+
+.box2{
+    width: 49%;
+    background-color: white;
+    color: whitesmoke;
+    overflow: hidden;
+    margin-top: 15px;
+    margin: 7px;
+}
+
+.box2 h3{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+    color:black;
+text-align: center;
+font-size: 35px;
+font-family:Arial, Helvetica, sans-serif  ;
+}
+
+.box2 img{
+padding-left: 300px;
+padding-top: 20px;
+}
+
+.link{
+    text-align: center;
+    color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.img3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 270px;
+}
+
+.main2{
+    display: flex;
+    margin: 5px;
+    }
+    
+
+.box3{
+    width: 49%;
+    background-color: rgb(230,230,230);
+    color: whitesmoke;
+    overflow: hidden;
+    margin-top: 15px;
+    margin: 7px;
+}
+
+.box3 p{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    color:black;
+text-align: center;
+font-size: 25px;
+font-family:Arial, Helvetica, sans-serif  ;
+}
+
+.box3 img{
+padding-left: 280px;
+padding-top: 30px;
+
+}
+
+.link{
+    text-align: center;
+    color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.img4{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 400px;
+padding-bottom: 20px;
+}
+
+
+.box4{
+    width: 49%;
+    background-color: rgb(245,245,247);
+    color: whitesmoke;
+    overflow: hidden;
+    margin-top: 15px;
+    margin: 7px;
+    
+}
+
+.box4 p{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    color:black;
+text-align: center;
+font-size: 28px;
+font-family:Arial, Helvetica, sans-serif  ;
+}
+
+.box4 h1{
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.link{
+    text-align: center;
+    color: rgb(7, 90, 158);
+font-size: 25px;
+}
+
+.img5{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 400px;
+padding-left: 380px;   
+padding-top: 30px;
+}
+
+.main3{
+    display: flex;
+    margin: 5px;
+    }
+
+    .box5{
+        width: 49%;
+        background-color: rgb(251,251,253);
+        color: whitesmoke;
+        overflow: hidden;
+        margin-top: 15px;
+        margin: 7px;
+        
+    }
+    
+    .box5 p{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        font-size: 30px;
+        color:black;
+    text-align: center;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif  ;
+    }
+    
+    .box5 h1{
+        text-align: center;
+        padding-top: 25px;
+        color: black;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box5 img{
+        padding-left: 300px;
+        padding-top: 30px;
+        
+        }
+
+    .link{
+        text-align: center;
+        color: rgb(7, 90, 158);
+    font-size: 25px;
+    
+    }
+    
+    .img6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+    padding-top: 30px;
+    }
+
+    .box6{
+        width: 49%;
+        background-color: rgb(251,251,253);
+        color: whitesmoke;
+        overflow: hidden;
+        margin-top: 15px;
+        margin: 7px;
+        
+    }
+    
+    .box6 p{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        font-size: 30px;
+        color:black;
+    text-align: center;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif  ;
+    }
+    
+    .box6 h1{
+        text-align: center;
+        padding-top: 25px;
+        color: black;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box6 img{
+        padding-left: 300px;
+        padding-top: 30px;
+        
+        }
+
+    .link{
+        text-align: center;
+        color: rgb(7, 90, 158);
+    font-size: 25px;
+    
+    }
+    
+    .img7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+    padding-top: 30px;
+    }
+
+    .footer{
+        background-color: whitesmoke;
+        margin: auto;
+    }
+
+    .para{
+font-family: Arial, Helvetica, sans-serif;
+color: grey;
+font-size: 20px;
+padding: 100px;
+padding: 20px 60px 60px 60px;
+    }
+
+    .foot1{
+margin: 50px 0px 0 70px;
+
+
+    }
+
+.foot1 h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+    .foot1 a{
+text-decoration: none;
+font-size: 18px;
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    .foot2{
+padding-left: 350px;
+margin-top: -830px;
+
+    }
+
+    .foot2 h4{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    
+        .foot2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .foot3{
+            padding-left: 630px;
+            margin-top: -660px;
+            
+                }
+            
+                .foot3 h4{
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: black;
+                }
+                
+                    .foot3 a{
+                text-decoration: none;
+                font-size: 18px;
+                color: grey;
+                font-family: Arial, Helvetica, sans-serif;
+                    }
+            
+                    
+        .foot4{
+            padding-left: 920px;
+            margin-top: -545px;
+            
+                }
+            
+                .foot4 h4{
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: black;
+                }
+                
+                    .foot4 a{
+                text-decoration: none;
+                font-size: 18px;
+                color: grey;
+                font-family: Arial, Helvetica, sans-serif;
+                    }
+                   
+                    .foot5{
+                        padding-left: 1250px;
+                        margin-top: -700px;
+                        
+                            }
+                        
+                            .foot5 h4{
+                                font-size: 20px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                color: black;
+                            }
+                            
+                                .foot5 a{
+                            text-decoration: none;
+                            font-size: 18px;
+                            color: grey;
+                            font-family: Arial, Helvetica, sans-serif;
+                                }
+                        
+
+                                
